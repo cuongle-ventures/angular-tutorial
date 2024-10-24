@@ -31,3 +31,18 @@ export class UserComponent {
     }
 }
 ```
+
+## Manage state
+
+### Signal
+
+```js
+count = signal(0);
+
+// Update count
+count.set(1);
+count.set(2);
+count.set(3);
+```
+
+### Other
