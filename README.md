@@ -19,3 +19,15 @@ Property binding syntax
 ```
 <img [src]="value" />
 ```
+
+## Event listener
+
+```
+<button (click)="onSelectUser()">Hello world</button>
+
+export class UserComponent {
+    onSelectUser () {
+        console.log('Hello world')
+    }
+}
+```
